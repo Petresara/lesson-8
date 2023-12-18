@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+}
+html,
+body
+{
+    font-family: "Roboto", sans-serif;
+}
+.custom-div-1
+{
+    width: 150px;
+    height: 150px;
+    background-color: #ff0000;
+    position: relative;
+    top: 30px;
+    left: 50px;
+    z-index: 2;
+}
+.span-1
+{
+    width: 25px;
+    height: 25px;
+    display: block;
+    background-color: #ffffff;
+    position: absolute;
+    top: 50px;
+    left: 15px;
+}
+.custom-div-2
+{
+    width: 30px;
+    height: 30px;
+    background-color: #00ff00;
+    position: relative;
+    z-index: 9;
+
+    
+
+}
+.custom-div-3
+{
+    width:40px;
+    height: 40px;
+    background-color: #0000ff;
+   
+}
+.custom-div-4
+{
+    width: 20px;
+    height: 20px;
+    background-color: #ffff00;
+  
+
+}
+.custom-div-5
+{
+    width:35;
+    height: 35;
+    background-color: #00ffff;
+}

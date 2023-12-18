@@ -1,0 +1,78 @@
+
+.container
+{
+ border: 1px solid #cccccc;
+ max-width: 400px;
+ width: 100%;
+ position: relative;
+ margin: 30px auto;
+
+}
+
+.img
+{
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+height: 100%;
+width: 175px;
+object-fit: cover;
+
+}
+.img img
+{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.content
+{
+ padding: 20px 20px 20px 195px;  
+    
+
+}
+.content h3
+{
+    margin: 0 0 10px;
+    font-size: 24px;
+}
+.content p
+{
+    margin: 0 0 15px;
+    font-size: 16px;
+    color: #aaaaaa;
+}
+.profile
+{
+   padding: 7px 15px;
+   border-radius: 5px;
+   background-color: #4040f7;
+   color: #ffffff;
+   text-decoration: none;
+   display: inline-block;
+   transition: 0.25 all ease-in-out;
+}
+.profile:hover
+{
+    background-color: #00ffff;
+}
+.custom-float
+{
+    float: right;
+    max-width: 400px;
+    border: solid 1px #cccccc;
+    display: inline-block;
+   
+}
+.custom-float img
+{
+ float: left;
+ clear: both;
+ object-fit: cover;
+}
+.custom-float p
+{
+    float left;
+    
+}
